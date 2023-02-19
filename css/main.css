@@ -1,0 +1,755 @@
+body{
+  
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+
+.row {
+    display: flex;
+  height: 100vh;
+width: 100%;
+margin-bottom: 150px;
+top:0;
+  
+}
+.header-img {
+    position: relative;
+    display: flex;
+    width: 100%;
+    left: -170px;
+}
+.logo{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo1 {
+    display: flex;
+    position: absolute;
+    top:70px;
+   right:890px;
+ 
+}
+.header-text {
+ /* Зеленый тариф для дома и бизнеса */
+
+position: absolute;
+width: 315.16px;
+height: 25px;
+left: 802px;
+top: 261px;
+
+/* Text 18 px */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+/* белый */
+color: #FFFFFF;
+
+
+}
+
+.header-title {
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-title1 {
+    display: flex;
+    position: absolute;
+    top: 300px;
+   left:500px;
+   font-size: 64px;
+   font-weight: 700;
+   line-height: 85px;
+   font-variant: small-caps;
+   color:#FFF;
+  
+}
+.header2{
+/* записаться на консультацию */
+
+position: absolute;
+width: 258px;
+height: 25px;
+left: 855.58px;
+top: 531px;
+
+/* Text 18 px */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+/* белый */
+color: #FFFFFF;
+
+
+}
+.header-title2 {
+    display: flex;
+    position: absolute;
+    top:370px;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 57px;
+    color:#FFF;
+    left: 660px;
+}
+
+
+.logo2 {
+    display: flex;
+    position: absolute;
+    top:475px;
+    left:780px;
+}
+.logo2:hover{
+    background-color: #A9A32A;
+    border-radius: 50%;
+}
+.logo-group {
+    display: flex;
+    position: absolute;
+    top:828px;
+    left:850px;
+}
+/*header end*/
+
+.help {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.help-row {
+    display: flex;
+margin-bottom: 181px;
+}
+.help-title {
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+margin-bottom: 60px;
+color: #868585;
+margin-left: 360px;
+
+}
+
+.help-content {
+    display: flex;
+    flex-direction: column;
+   max-width: 510px;
+   margin-left: -95px;
+   margin-top: 60px;
+}
+.help-title1,.help-title2,.help-title3,.help-title4 {
+  
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+margin-bottom: 15px;
+/* identical to box height */
+
+/* черный */
+color: #303030;
+
+
+}
+.help-text1, .help-text2, .help-text3, .help-text4{
+ 
+
+/* Text 14 px */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+margin-bottom: 50px;
+/* черный */
+color: #303030;
+}
+.img-cover{
+    margin-left: 89px;
+    margin-top: 60px;
+}
+.home-green {
+    display: flex;
+    max-width: 1200px;
+   
+}
+.green {
+    display: flex;
+    margin-left: 360px;
+}
+.green-title {
+/* ЗЕЛЕНЫЙ ТАРИФ */
+margin-left: auto;
+width: 213px;
+
+/* Заголовок H1 */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* серый */
+color: #868585;
+
+
+
+}
+.container1 {
+margin-left: -210px;
+margin-top: 64px;
+
+}
+.tab {
+    padding-top: 64px;
+    max-width: 400px;
+    display: flex;
+    margin-top: 60px;
+    justify-content:space-between;
+    /* продажа */
+/* Text 18 px */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+margin-bottom: 120px;
+color: #303030;
+
+}
+
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 510px;
+    height: 200px;
+    padding-bottom: 100px;
+}
+.foto{
+    position: relative;
+    float: left;
+    padding: 0 40px 40px 0;
+  
+}
+.arow{
+   position: absolute;
+   margin-top: 190px;
+   margin-left: 275px;
+}
+.arow1+.arow2{
+    margin-left: 20px;
+}
+.green-text {
+
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+/* Цена, по которой домохозяйства могут продать электроэнергию, более чем в 10 раз превышает цену, по которой они ее покупают для своих нужд — 0,16 Евро/кВт (продажа). */
+
+
+/* Text 14 px */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+/* черный */
+color: #303030;
+
+
+}
+.green-content {
+    display: flex;
+ max-width: 510px;
+    height: 214px;
+}
+.green-title1,.green-title2,.green-title3,.green-title4 {
+  font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+
+/* черный */
+color: #303030;
+
+
+}
+.green-text1,.green-text2,.green-text3,.green-text4{
+ 
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+/* черный */
+color: #303030;
+}
+.green-text1{
+    margin-bottom: 40px;
+}
+.green-text2{
+    margin-bottom: 25px;
+}
+.green-content2{
+margin-left: 40px;
+}
+
+.green-foto{
+    margin-left: 200px;
+    margin-top: 180px;
+}
+.img-green {
+
+/* Заголовок H2 */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+
+/* черный */
+color: #303030;
+
+
+
+}
+/*green ehd*/
+.batary {
+  
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+margin-bottom: 150px;
+}
+.img-batary {
+    position: relative;
+ display: block;
+max-width: 100%;
+
+
+background: url(A1MAIN-solar-072619-shutter.jpg);
+
+}
+
+.batary-text {
+  /* «Солнечная электростанция — идеальное вложение средств в свою энергонезависимость и пассивный доход» */
+
+position: absolute;
+width: 673px;
+height: 221.62px;
+left:623px;
+top: 3300px;
+
+
+
+/* Discriptor */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 57px;
+text-align: center;
+
+/* белый */
+color: #FFFFFF;
+}
+
+
+.container-client {
+    display: flex;
+    max-width: 120;
+}
+    .main-client{
+display: flex;
+justify-content: space-around;
+max-width: 1200px;
+margin-bottom: 150px;
+    }
+
+.img-client{
+    margin-left: 601px;   
+}
+.title-client {
+ margin-left: 601px;
+/* Заголовок H1 */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* серый */
+color: #868585;
+padding-bottom: 60px;
+
+
+}
+.arrow-client {
+   padding-top: 20px;
+    margin-left: 900px;
+}
+.arrow-client1+.arrow-client2{
+    margin-left: 20px;
+}
+.green-tarif {
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+   align-items: flex-start;
+ 
+}
+.title-client1{
+    display: flex;
+margin-top: 50px;
+    margin-left: 91px;
+    width: 478px;
+}
+.title-client2 {
+
+/* Заголовок H2 */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+
+/* черный */
+color: #303030;
+margin-bottom: 35px;
+
+}
+.title-content ,.title-content2,.title-content3,.title-content4 {
+/* Расположение: Харьковская обл., г. Харьков */
+margin-left: 141px;
+margin-bottom: 15px;
+/* Text 14 px */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+/* черный */
+color: #303030;
+
+
+}
+.title-content5{
+    /* записаться на консультацию */
+    margin-left: 121px;
+    margin-top: 84px;
+    
+
+/* Text 18 px */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+/* черный */
+color: #303030;
+
+
+}
+
+.logo-blak{
+    /* кнопка */
+
+position: absolute;
+width: 306px;
+height: 100px;
+left: 955px;
+top: 3891px;
+margin-left: -120px;
+margin-top: 334px;
+}
+
+
+
+
+.five {
+    margin-left: 360px;
+    display: flex;
+    flex-direction: column;  
+    margin-bottom: 150px;
+}
+
+
+
+.five-title {
+   width: 324px;
+   margin-bottom: 60px;
+
+
+/* Заголовок H1 */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+
+/* серый */
+color: #868585;
+
+ 
+}
+.five-content {
+    max-width: 604px;
+}
+.first1, .first2, .first3,.first4,.first5  {
+ 
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+margin-bottom: 11px;
+color: #868585;
+
+
+}
+.five-title1, .five-title2, .five-title3,.five-title4, .five-title5  {
+
+/* Заголовок H2 */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+margin-bottom: 5px;
+color: #303030;
+
+
+}
+.five-text1, .five-text2, .five-text3, .five-text4, .five-text5{
+  
+
+margin-bottom: 30px;
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+/* черный */
+color: #303030;
+}
+.caar-foto{
+    display: flex;
+    margin-left: 800px;
+    margin-top: -770px;
+}
+.img-footer{
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    height: 730px;
+}
+
+
+  
+
+.footer-name {
+    position: absolute;
+    width: 232px;
+    height: 33px;
+    left: 260px;
+    top: 5523px;
+    
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+   
+    color: #FFFFFF;
+     
+}
+.footer-name2{
+  
+
+position: absolute;
+width: 30px;
+height: 19px;
+left: 259px;
+top: 5646px;
+
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+
+
+color: #FFFFFF;
+
+
+}
+.line{
+    
+
+position: absolute;
+width: 510px;
+height: 0px;
+left: 259px;
+top: 5676px;
+
+
+border: 1px solid #FFFFFF;
+
+}
+.footer-fone {
+    position: absolute;
+width: 30px;
+height: 19px;
+left: 259px;
+top: 5756px;
+
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+}
+.line2{
+
+    position: absolute;
+    width: 510px;
+    height: 0px;
+    left: 259px;
+    top: 5786px;
+    
+   
+    border: 1px solid #FFFFFF;
+}
+/*.vector12{
+ 
+box-sizing: border-box;
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 259px;
+top: 5846px;
+
+
+border: 0.5px solid #FFFFFF;
+border-radius: 50%;
+
+}
+*/.footer-end {
+   
+
+box-sizing: border-box;
+
+position: absolute;
+width: 212px;
+height: 16px;
+left: 260px;
+top: 5993px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+
+
+color: #FFFFFF;
+
+
+}
+ 
+.foot {
+}
+.contact-footer {
+    /* КОНТАКТЫ */
+
+position: absolute;
+width: 137px;
+height: 33px;
+left: 960px;
+top: 5523px;
+
+/* Заголовок H1 */
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+/* белый */
+color: #FFFFFF;
+
+}
+.contect-footer{
+    margin-bottom: 30px;
+
+
+position: absolute;
+width: 600px;
+height: 50px;
+left: 960px;
+top: 5583px;
+
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+
+
+color: #FFFFFF;
+
+
+}
+.contect-footer2 {
+    margin-bottom: 30px;
+}
+.contect-footer3 {
+    margin-bottom: 30px;
+}
+.contect-footer4 {
+    margin-bottom: 30px;
+}
+
+.contect-footer1 {
+    margin-bottom: 30px;
+}
